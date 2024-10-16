@@ -47,13 +47,10 @@
   ],
   "binary": {
     "module_name": "index",
-    "module_path": "./lib/v{napi_build_version}",
+    "module_path": "./lib/v6",
     "remote_path": "./v{version}",
-    "package_name": "{platform}-{arch}-{node_napi_label}-{libc}.tar.gz",
-    "host": "https://skia-canvas.s3.us-east-1.amazonaws.com",
-    "napi_versions": [
-      6
-    ]
+    "package_name": "{platform}-{arch}-{libc}.tar.gz",
+    "host": "https://github.com/samizdatco/skia-canvas/releases/download"
   },
   "keywords": [
     "canvas",
