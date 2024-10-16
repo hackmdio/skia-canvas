@@ -12,7 +12,7 @@
     "url": "https://github.com/samizdatco/skia-canvas/issues"
   },
   "homepage": "https://github.com/samizdatco/skia-canvas#readme",
-  "main": "lib",
+  "main": "lib/v6/lib",
   "browser": {
     "lib": "./lib/browser.js",
     "path": "path-browserify"
