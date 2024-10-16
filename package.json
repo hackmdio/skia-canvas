@@ -49,7 +49,7 @@
     "module_name": "index",
     "module_path": "./lib/v6",
     "remote_path": "./v{version}",
-    "package_name": "{platform}-{arch}-{libc}.tar.gz",
+    "package_name": "skia-canvas-v{version}-{platform}-{arch}-{libc}.tar.gz",
     "host": "https://github.com/samizdatco/skia-canvas/releases/download"
   },
   "keywords": [
